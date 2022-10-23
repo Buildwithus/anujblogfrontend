@@ -23,14 +23,14 @@ html{
 .anuj{
   font-family: Copperplate, Papyrus, fantasy;
   color: darkred;
-  font-size:3.2rem;
+  font-size:2.9rem;
 }
 .anuj:hover{
   color:rgb(13, 181, 94);
 }
 
 h4{
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   padding: 1rem 1rem 1rem 0rem;
   color: rgb(94, 94, 99);
 }
@@ -130,7 +130,7 @@ button{
 }
 .b{
   color:rgb(13, 181, 94);
-  font-size:3.2rem;
+  font-size:2.9rem;
 }
 button:hover{
   color: blue;
@@ -144,19 +144,19 @@ button:hover{
 }
 
 h2{
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   color:rgb(13, 181, 94);
   width: 80rem;
 }
 p{
-  font-size: 2.9rem;
+  font-size: 3rem;
   width: 80rem; 
   white-space: pre-line;
   
 }
 
 h5{
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   float: right;
   color:rgb(13, 181, 94);
  
