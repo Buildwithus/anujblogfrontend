@@ -13,7 +13,7 @@ html{
   background-color:white;
   width: 78rem;
   top: -2rem;
-  height: 4.8rem;
+  height: 5.3rem;
   
   
 }
@@ -23,7 +23,7 @@ html{
 .anuj{
   font-family: Copperplate, Papyrus, fantasy;
   color: darkred;
-  font-size:2.5rem;
+  font-size:3.2rem;
 }
 .anuj:hover{
   color:rgb(13, 181, 94);
@@ -54,7 +54,7 @@ h4{
   color:rgb(13, 181, 94);
   width: 60rem;
   height: 6rem;
-  font-size: 2rem;
+  font-size: 2.8rem;
   border: none;
   border-bottom: solid;
   outline: none;
@@ -85,13 +85,13 @@ h1{
 
 }
 .input{
-  font-size: 1.4rem;
+  font-size: 2.3rem;
   color: blue;
   display: block;
   margin-top: 5rem;
   margin: 3rem 20rem;
   width: 40rem;
-  height: 5rem;
+  height: 6rem;
   border-radius: .8rem;
   border: none;
   outline: none;
@@ -118,11 +118,11 @@ textarea:hover{
 button{
   color: rgb(220, 20, 163);
   margin-left: 35rem;
-  width: 10rem;
+  width: 13rem;
   font-weight:bold;
-  height: 4.2rem;
+  height: 6rem;
   border-radius: 2rem;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   border: none;
   background-color: lightpink;
   box-shadow: .5rem .5rem .5rem rgba(0,0,0,0.2)
@@ -130,7 +130,7 @@ button{
 }
 .b{
   color:rgb(13, 181, 94);
-  font-size:2.5rem;
+  font-size:3.2rem;
 }
 button:hover{
   color: blue;
@@ -144,12 +144,12 @@ button:hover{
 }
 
 h2{
-  font-size: 3rem;
+  font-size: 3.4rem;
   color:rgb(13, 181, 94);
   width: 80rem;
 }
 p{
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   width: 80rem; 
   white-space: pre-line;
   
@@ -172,22 +172,19 @@ h3{
   display: inline;
   float: left;
   color:rgb(13, 181, 94);
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   margin-bottom: 10rem;
   
 }
 a{
   color: green;
 }
-.w{
-  font-weight: bold;
-  font-family: Copperplate, Papyrus, fantasy;
-}
+
 .me{
-  font-family: Copperplate, Papyrus, fantasy;
+  
   color: rgb(5, 0, 139);
-  font-weight: bold;
-  font-size: 1.9rem;
+  
+  font-size: 2.7rem;
 }
 .s{
   color: darkred;
