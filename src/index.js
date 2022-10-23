@@ -1,13 +1,34 @@
 import React from 'react';
+import './App.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import Home from './pages/home';
+import Blogcreate from './pages/blogcreate';
+import Nav from './pages/navbar';
+import About from './pages/about';
+
+function AnujBlog(){
+  return(
+    <BrowserRouter>
+       <Routes>
+        <Route path='/' element={<Nav/>}>
+          <Route index element={<Home/>}></Route>
+          <Route path="creatblog" element={<Blogcreate/>}></Route>
+          <Route path="about" element={<About/>}></Route>
+
+
+        </Route>
+       </Routes>
+    </BrowserRouter>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AnujBlog />
   </React.StrictMode>
 );
 

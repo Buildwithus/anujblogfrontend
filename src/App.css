@@ -1,38 +1,283 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html{
+  font-size: 62.5%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.navbar{
+  list-style-type: none;
+  font-size: 2rem;
+  position: fixed;
+  overflow: hidden;
+  background-color:white;
+  width: 78rem;
+  top: -2rem;
+  height: 4.8rem;
+  
+  
+}
+.b:hover{
+  color: darkred;
+}
+.anuj{
+  font-family: Copperplate, Papyrus, fantasy;
+  color: darkred;
+}
+.anuj:hover{
+  color:rgb(13, 181, 94);
 }
 
-.App-link {
-  color: #61dafb;
+h4{
+  font-size: 1.5rem;
+  padding: 1rem 1rem 1rem 0rem;
+  color: rgb(94, 94, 99);
+}
+.right{
+  float: right;
+  margin-top: 1rem;
+  margin-right: 10rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  float: left;
+  margin-top: 1rem;
 }
+.forma{
+  margin-top: 10rem;
+  
+  text-align: center;
+ 
+}
+.form{
+  color:rgb(13, 181, 94);
+  width: 60rem;
+  height: 6rem;
+  font-size: 2rem;
+  border: none;
+  border-bottom: solid;
+  outline: none;
+}
+.form:hover{
+  border-color: darkred;
+}
+.mainbody{
+  width: 50%;
+  margin-top: 10rem;
+  
+}
+.creatblog{
+  width: 50%;
+  margin-top: 10rem;
+  width: 80rem;
+  height: 50rem;
+  background-color:rgb(97, 164, 97);
+  border-radius: 1.5rem;
+}
+h1{
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 1rem;
+  color: darkred;
+  
+
+}
+.input{
+  font-size: 1.4rem;
+  color: blue;
+  display: block;
+  margin-top: 5rem;
+  margin: 3rem 20rem;
+  width: 40rem;
+  height: 4rem;
+  border-radius: .8rem;
+  border: none;
+  outline: none;
+  box-shadow: .5rem .5rem .5rem rgba(0,0,0,0.2);
+}
+.input:hover{
+  background-color: rgb(209, 197, 197);
+}
+textarea{
+  color: blue;
+  box-shadow: .5rem .5rem .5rem rgba(0,0,0,0.2);
+  font-size: 1.4rem;
+  display: block;
+  margin: 2rem 20rem;
+  width: 40rem;
+  height: 8rem;
+  border-radius: .9rem;
+  border: none;
+  outline: none;
+}
+textarea:hover{
+  background-color: rgb(209, 197, 197);
+}
+button{
+  color: rgb(220, 20, 163);
+  margin-left: 35rem;
+  width: 10rem;
+  font-weight:bold;
+  height: 4.2rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  border: none;
+  background-color: lightpink;
+  box-shadow: .5rem .5rem .5rem rgba(0,0,0,0.2)
+
+}
+.b{
+  color:rgb(13, 181, 94);
+}
+button:hover{
+  color: blue;
+  background-color:lightcoral;
+}
+.img{
+  width: 80rem;
+  height:45rem ;
+ 
+ 
+}
+
+h2{
+  font-size: 2.5rem;
+  color:rgb(13, 181, 94);
+  width: 80rem;
+}
+p{
+  font-size: 1.6rem;
+  width: 80rem; 
+  white-space: pre-line;
+  
+}
+
+h5{
+  font-size: 1.8rem;
+  float: right;
+  color:rgb(13, 181, 94);
+ 
+  display: inline;
+}
+h3:hover{
+  color: darkred;
+}
+h5:hover{
+  color: royalblue;
+}
+h3{
+  display: inline;
+  float: left;
+  color:rgb(13, 181, 94);
+  font-size: 1.8rem;
+  margin-bottom: 10rem;
+  
+}
+a{
+  color: green;
+}
+.w{
+  font-weight: bold;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.me{
+  font-family: Copperplate, Papyrus, fantasy;
+  color: rgb(5, 0, 139);
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+.s{
+  color: darkred;
+  
+}
+.m{
+  color: darkred;
+  font-size: 4rem;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.about{
+  width: 50%;
+  margin-top: 10rem;
+  width: 80rem;
+  height: 50rem;
+  border-radius: 1.5rem;
+}
+
+
+@media screen and (min-width:790px) and  (max-width:830px) {
+  html{
+    font-size: 60%;
+  } 
+}
+@media screen and (min-width:740px) and  (max-width:790px) {
+  html{
+    font-size: 57%;
+  } 
+}
+@media screen and (min-width:710px) and  (max-width:740px) {
+  html{
+    font-size: 55%;
+  } 
+}
+@media screen and (min-width:650px) and  (max-width:710px) {
+  html{
+    font-size: 51%;
+  } 
+}
+@media screen and (min-width:610px) and  (max-width:650px) {
+  html{
+    font-size: 47%;
+  } 
+}
+@media screen and (min-width:552px) and  (max-width:610px) {
+  html{
+    font-size: 43%;
+  } 
+}
+@media screen and (min-width:502px) and  (max-width:552px) {
+  html{
+    font-size: 38%;
+  } 
+}
+@media screen and (min-width:453px) and  (max-width:502px) {
+  html{
+    font-size: 35%;
+  } 
+}
+@media screen and (min-width:415px) and  (max-width:453px) {
+  html{
+    font-size: 32%;
+  } 
+}
+@media screen and (min-width:373px) and  (max-width:415px) {
+  html{
+    font-size: 29%;
+  } 
+}
+@media screen and (min-width:336px) and  (max-width:373px) {
+  html{
+    font-size: 26%;
+  } 
+}
+@media screen and (min-width:285px) and  (max-width:336px) {
+  html{
+    font-size: 22%;
+  } 
+}
+@media screen and (min-width:221px) and  (max-width:285px) {
+  html{
+    font-size: 17%;
+  } 
+}
+@media screen and (min-width:154px) and  (max-width:221px) {
+  html{
+    font-size: 12%;
+  } 
+}
+@media screen and (min-width:10px) and  (max-width:154px) {
+  html{
+    font-size: 6%;
+  } 
+}
+
