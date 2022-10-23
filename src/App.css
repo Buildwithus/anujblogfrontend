@@ -30,7 +30,7 @@ html{
 }
 
 h4{
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   padding: 1rem 1rem 1rem 0rem;
   color: rgb(94, 94, 99);
 }
@@ -91,7 +91,7 @@ h1{
   margin-top: 5rem;
   margin: 3rem 20rem;
   width: 40rem;
-  height: 4rem;
+  height: 5rem;
   border-radius: .8rem;
   border: none;
   outline: none;
@@ -144,19 +144,19 @@ button:hover{
 }
 
 h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
   color:rgb(13, 181, 94);
   width: 80rem;
 }
 p{
-  font-size: 2rem;
+  font-size: 2.5rem;
   width: 80rem; 
   white-space: pre-line;
   
 }
 
 h5{
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   float: right;
   color:rgb(13, 181, 94);
  
@@ -172,7 +172,7 @@ h3{
   display: inline;
   float: left;
   color:rgb(13, 181, 94);
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   margin-bottom: 10rem;
   
 }
