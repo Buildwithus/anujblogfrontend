@@ -41,7 +41,7 @@ function Getdata(){
     }).map((data)=>(
       <>
 
-      <div><img className='img' src={data.imgurL}></img></div>
+      <div><img className='img' alt="Image Loading..." src={data.imgurL}></img></div>
       <h2>{data.title}</h2>
       <h4>{data.date}</h4>
       
