@@ -27,6 +27,8 @@ function Getdata(){
     calldata();
   },[])
   
+  const Blog=[...blog].reverse();
+  
   return(
     <>
     <form className='forma' >
@@ -34,7 +36,7 @@ function Getdata(){
        
     </form>
     <div className='mainbody'>
-    {blog.filter((data)=>{
+    {Blog.filter((data)=>{
       return search.toLocaleLowerCase() === ''? data:data.title.toLocaleLowerCase().includes(search)
     }).map((data)=>(
       <>
