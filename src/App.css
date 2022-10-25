@@ -204,6 +204,19 @@ a{
   border-radius: 1.5rem;
 }
 
+@media screen and (min-width:790px) and  (max-width:1300px) {
+  html{
+    font-size: 62%;
+  } 
+  p{
+  font-size: 2.2em; 
+}
+  h5{
+  font-size: 2.2rem;
+ 
+}
+  
+}
 
 @media screen and (min-width:790px) and  (max-width:830px) {
   html{
