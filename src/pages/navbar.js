@@ -6,7 +6,7 @@ const Nav=()=>{
         <>
           <nav>
             <ul className="navbar">
-                <li className="logo"> <b className="anuj">AnujBlog</b></li>
+                <li className="logo"> <b className="anuj">ANUJBLOG</b></li>
                 
                 <li className="right">
                     <Link to="/about" style={{ textDecoration: 'none' }}><b className="b">ABOUT</b></Link>
