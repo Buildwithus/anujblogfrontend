@@ -2,6 +2,7 @@
   "name": "anujblog",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://anujbackendb-anuj.onrender.com"
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
