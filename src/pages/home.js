@@ -20,7 +20,7 @@ function Getdata(){
   const [search ,setSearch]=useState("");
 
   const calldata=async()=>{
-    const{data}=await axios.get("https://anujblogbackend.herokuapp.com/home");
+    const{data}=await axios.get("https://anujbackendb-anuj.onrender.com/home");
     setBlog(data);
   }
   useEffect(()=>{
