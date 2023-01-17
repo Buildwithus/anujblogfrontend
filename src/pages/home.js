@@ -54,7 +54,7 @@ function Getdata(){
        </p>
       
         <RWebShare data={{
-          url:"https://anujblog.netlify.app"
+          url:"https://anujblogg.netlify.app/"
         }}>
            <h3>SHARE</h3>
         </RWebShare>
