@@ -19,7 +19,7 @@ function App(){
 
   const submitdata=async(e)=>{
     e.preventDefault();
-    const res=await fetch("https://anujblogbackend.herokuapp.com/creatblog",{
+    const res=await fetch("https://anujbackendb-anuj.onrender.com/creatblog",{
       method:"POST",
       headers:{
         "Content-Type": "application/json"
